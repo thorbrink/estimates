@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install, build and test app
-      - uses: actions/setup-node@v1
+        uses: actions/setup-node@v1
       - run: npm install
       - run: npm run build
       - run: npm run test
